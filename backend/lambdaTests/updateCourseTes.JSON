@@ -1,0 +1,7 @@
+{
+    "operation": "add_course",
+    "name": "CSE 3500",
+    "description": "Algorithms and Complexity",
+    "secdatetime": ["1.M110:11,W10:11,F10:11", "2.Tu8:10,Th8:10"],
+    "teachers": ["Dr. A", "Dr. B"]
+}

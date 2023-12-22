@@ -1,0 +1,5 @@
+{
+    "operation": "add_student_course",
+    "name": "CSE 3000.2",
+    "peoplesoftID": "1234567"
+}

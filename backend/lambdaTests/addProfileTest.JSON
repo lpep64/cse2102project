@@ -1,0 +1,10 @@
+{
+    "operation": "add_profile",
+    "username": "Jake Ott",
+    "peoplesoftID": "7654564",
+    "courses": ["OPIM 2345.2", "CSE 2102.1"],
+    "email": "jake.ott@uconn.edu",
+    "NetID": "jto20003",
+    "password": "password1",
+    "permissions": "1"
+}

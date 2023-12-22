@@ -1,0 +1,5 @@
+{
+    "operation": "delete_student_course",
+    "name": "CSE 2102",
+    "peoplesoftID": "1234567"
+}

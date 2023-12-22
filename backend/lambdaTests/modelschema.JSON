@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Husky37",
+    "type": "object",
+    "properties": {
+      "peoplesoftID": {"type": "string"},
+      "username": {"type": "string"},
+      "courses": {"type": "array", "items": {"type": "string"}},
+      "email": {"type": "string"},
+      "NetID": {"type": "string"},
+      "password": {"type": "string"},
+      "permissions": {"type": "string"},
+      "name": {"type": "string"},
+      "description": {"type": "string"},
+      "secdatetime": {"type": "array", "items": {"type": "string"}},
+      "students": {"type": "array", "items": {"type": "integer"}},
+      "teachers": {"type": "array", "items": {"type": "string"}}
+    }
+  }

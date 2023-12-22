@@ -1,0 +1,12 @@
+$uri = 'https://a96fo41sq4.execute-api.us-east-1.amazonaws.com/API'
+$headers = @{
+    'content-type' = 'application/json'
+    'x-amz-docs-region' = 'us-east-1'
+}
+
+$body = @{
+    operation = 'query_student'
+    peoplesoftID = '1'
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri $uri -Method Post -Headers $headers -Body $body

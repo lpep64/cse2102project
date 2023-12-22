@@ -1,0 +1,29 @@
+/*
+this imports a css reset
+
+a css reset is a stylesheet that applies rules
+such that the "default styles" of every major
+browser are identical
+*/
+@import "@unocss/reset/tailwind-compat.css";
+
+/* give links a blue color, and underline them */
+a {
+  color: #0d74ce;
+  text-decoration: underline;
+}
+
+/* when the links are hovered, change them to a lighter blue */
+a:hover {
+  color: #0588f0;
+}
+
+/* give headings and form labels a default color that is dark and has strong contrast against the background */
+:is(h1, h2, h3, h4, h5, h6, label) {
+  color: #202020;
+}
+
+/* give text a default color that is ligher than headings. it still has enough contrast to be legible, but looks visually less important */
+:is(p, li) {
+  color: #646464;
+}
