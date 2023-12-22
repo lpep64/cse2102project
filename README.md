@@ -16,6 +16,12 @@ This project aims to create a robust Student Administration System for the Unive
 - **Profile**: View and manage user profiles
 - **Login/Logout**: Authentication and session management
 
+To run the website please download the repository:
+1. Enter into the frontend folder
+2. Run the following in terminal: npm run build
+3. As well as: npm run preview
+4. To login please use my developer login of: PeopleSoftID: 1, Password: 1
+
 ## Technology Stack
 
 The application is built using the following technologies:
